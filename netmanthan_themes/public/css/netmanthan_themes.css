@@ -23,10 +23,10 @@ strong {
 
 /* Color Variables */
 :root {
-  --primary-bg: #dcdcdc;
-  --secondary-bg: #B1D182;
+  --primary-bg: #FAFDFE;
+  --secondary-bg: #00C2A8;
   --accent-color: #ffffff;
-  --sidebar-bg: #688F4E;
+  --sidebar-bg: #00D898;
   --sidebar-border: #dcdcdc;
   --text-muted: #888;
   --white-color: #ffffff;
@@ -41,7 +41,7 @@ strong {
   --margin-sm: 8px;
   --margin-xs: 4px;
   --transition-speed: 0.3s;
-  --highlight-color: #ffcc00;
+  --highlight-color: #05F283;
 }
 
 /* Scrollbar Styling */
@@ -73,7 +73,7 @@ strong {
   position: relative;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin-bottom: 10px; /* Adds spacing between cards */
+  margin-bottom: 10px;
 }
 
 .layout-side-section:hover {
@@ -88,11 +88,11 @@ strong {
   cursor: pointer;
   position: relative;
   font-size: 0.95rem;
-  margin-bottom: 8px; /* Adds spacing between items */
+  margin-bottom: 8px;
 }
 
 .layout-side-section .sidebar-menu-item:hover {
-  background-color: #B1D182;
+  background-color: #00D898;
   color: var(--accent-color);
 }
 
@@ -123,7 +123,7 @@ strong {
 
 /* Navbar */
 header.navbar.navbar-expand.sticky-top {
-  background-color: var(--sidebar-bg); /* Match navbar color with sidebar */
+  background-color: var(--sidebar-bg);
 }
 .navbar-nav .icon {
   stroke: #fff !important;
@@ -163,7 +163,7 @@ header.navbar.navbar-expand.sticky-top {
 }
 
 .widget.shortcut-widget-box {
-  background: #B1D182;
+  background: #00C2A8;
   border-radius: 30px;
   padding: 15px;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
@@ -175,7 +175,7 @@ header.navbar.navbar-expand.sticky-top {
 }
 
 .widget.links-widget-box {
-  background: #B1D182;
+  background: #00C2A8;
   border-radius: 10px;
   padding: 15px;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
@@ -189,7 +189,7 @@ header.navbar.navbar-expand.sticky-top {
 }
 
 .widget.links-widget-box .link-item:hover .indicator-pill {
-  background: #B1D182;
+  background: #00C2A8;
   color: white;
 }
 
@@ -200,7 +200,7 @@ header.navbar.navbar-expand.sticky-top {
 }
 
 .page-container .page-head {
-  background-color: #B1D182; /* Updated color */
+  background-color: #00C2A8;
 }
 
 /* Sidebar Item Styling with Color and Box Between Items */
@@ -213,20 +213,20 @@ header.navbar.navbar-expand.sticky-top {
   font-weight: var(--weight-regular);
   letter-spacing: 0.02em;
   padding: 8px 12px;
-  margin-bottom: 10px; /* Increased margin between items */
+  margin-bottom: 10px;
   border-radius: var(--border-radius);
   overflow: hidden;
   cursor: pointer;
-  background-color: #f4f4f4; /* Light background for the box */
-  border: 1px solid #ddd; /* Border around each item */
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Optional shadow for a subtle depth effect */
+  background-color: #FAFDFE;
+  border: 1px solid #ddd;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .standard-sidebar .standard-sidebar-item:hover,
 .desk-sidebar .standard-sidebar-item:hover,
 .search-dialog .search-results .search-sidebar .standard-sidebar-item:hover {
-  background-color: #e0e0e0; /* Darker background on hover */
-  border-color: #bbb; /* Darker border on hover */
+  background-color: #e0e0e0;
+  border-color: #bbb;
 }
 
 /* Enhanced Effects */
@@ -237,7 +237,7 @@ header.navbar.navbar-expand.sticky-top {
 }
 
 .widget:hover {
-  background-color: #B1D182;
+  background-color: #00C2A8;
   transform: translateY(-5px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
@@ -277,7 +277,7 @@ header.navbar.navbar-expand.sticky-top {
 
 /* Button Style */
 .btn-custom {
-  background-color: #B1D182;
+  background-color: #00C2A8;
   color: #fff;
   border-radius: 10px;
   padding: 8px 16px;
@@ -287,7 +287,7 @@ header.navbar.navbar-expand.sticky-top {
 }
 
 .btn-custom:hover {
-  background-color: #B1D182;
+  background-color: #00C2A8;
   color: #ffffff;
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
 }
